@@ -6,7 +6,7 @@
                     class="grid md:grid-cols-12 divide-y md:divide-y-0 lg:divide-x divide-black divide-opacity-10 justify-between gap-10">
                     <div class="md:col-span-6 lg:col-span-3">
                         <a href="index.html" class="block mb-7">
-                            <img src="assets/images/logo/logo-w.svg" alt="">
+                            <!-- <img src="assets/images/logo/logo-w.svg" alt=""> -->
                         </a>
                         <p class="text-black text-base">
                             We work with a passion of taking challenges and creating pblue ones
@@ -16,22 +16,22 @@
                             <a href="http://"
                                 class="text-interface-200 hover:bg-pblue-500 hover:text-black transition-all text-lg w-10 h-10 rounded-full bg-black bg-opacity-10 inline-flex justify-center items-center"
                                 target="_blank" rel="noopener noreferrer">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <!-- <i class="fa-brands fa-facebook-f"></i> -->
                             </a>
                             <a href="http://"
                                 class="text-interface-200 hover:bg-pblue-500 hover:text-black transition-all text-lg w-10 h-10 rounded-full bg-black bg-opacity-10 inline-flex justify-center items-center"
                                 target="_blank" rel="noopener noreferrer">
-                                <i class="fa-brands fa-twitter"></i>
+                                <!-- <i class="fa-brands fa-twitter"></i> -->
                             </a>
                             <a href="http://"
                                 class="text-interface-200 hover:bg-pblue-500 hover:text-black transition-all text-lg w-10 h-10 rounded-full bg-black bg-opacity-10 inline-flex justify-center items-center"
                                 target="_blank" rel="noopener noreferrer">
-                                <i class="fa-brands fa-instagram"></i>
+                                <!-- <i class="fa-brands fa-instagram"></i> -->
                             </a>
                             <a href="http://"
                                 class="text-interface-200 hover:bg-pblue-500 hover:text-black transition-all text-lg w-10 h-10 rounded-full bg-black bg-opacity-10 inline-flex justify-center items-center"
                                 target="_blank" rel="noopener noreferrer">
-                                <i class="fa-brands fa-youtube"></i>
+                                <!-- <i class="fa-brands fa-youtube"></i> -->
                             </a>
                         </div>
                     </div>
