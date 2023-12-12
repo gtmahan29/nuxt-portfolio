@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar sticky top-0 z-50 transition-colors duration-75 w-full bg-opacity-60 backdrop-filter backdrop-blur-md flex items-center" :class="scrollPosition === 0 ? 'bg-lightGray shadow-none' : 'bg-white'">
+    <div class="navbar sticky top-0 z-50 transition-colors duration-75 w-full bg-opacity-80 backdrop-filter backdrop-blur-md flex items-center">
         <div class="container mx-auto px-12 py-4">
             <div class="navbar-start inline-block">
                 <div class="dropdown">
