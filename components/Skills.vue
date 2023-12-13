@@ -29,9 +29,9 @@
 
                         <div class="skills-boxes mt-10 mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[35px] mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                         viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <title></title>
@@ -40,12 +40,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Nuxt</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Nuxt</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -53,12 +53,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Vue</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Vue</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -66,12 +66,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Javascript</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Javascript</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -79,12 +79,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Bootstrap</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Bootstrap</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                         viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <title></title>
@@ -93,12 +93,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Tailwind</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Tailwind</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -106,12 +106,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Wordpress</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Wordpress</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -119,12 +119,12 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Git</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Git</p>
                             </div>
                             <div
-                                class="bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
+                                class="skill-card bg-[#f9f9f9] flex flex-col items-center justify-center border border-white rounded-lg p-[20px] group hover:bg-[#0252CD] glass bg-none">
                                 <div
-                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center text-[40px] mb-4 transition duration-500 ease-in-out group-hover:bg-white">
+                                    class="flex justify-center items-center shadow-[inset_0px_0px_5px_0px_rgba(0,49,200,0.1)] bg-white text-primary-color w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-4 ease-in-out group-hover:bg-transparent">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512"
                                         height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -132,7 +132,7 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <p class="group-hover:text-white text-xl font-bold">Figma</p>
+                                <p class="group-hover:text-white text-[16px] font-normal">Figma</p>
                             </div>
                         </div>
                         <button

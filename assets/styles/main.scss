@@ -35,8 +35,20 @@
     }
 }
 
+.skill-card {
+    &:hover {
+        svg {
+            color: #fff;
+        }
+    }
+}
+
 .skills-boxes {
     svg {
         color: #8f8f8f;
     }
+}
+
+.swiper {
+    padding: 4rem !important;
 }
