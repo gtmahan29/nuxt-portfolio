@@ -5,11 +5,11 @@
         </div>
 
         <div class="content mt-7 px-6 py-10">
-            <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600 group-hover:text-white">Plagiarism checker</a>
+            <a href="#" class="title h5 text-lg font-medium hover:text-primary group-hover:text-white">Plagiarism checker</a>
             <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
             <div class="mt-5">
-            <a href="#" class="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 group-hover:text-white hover:after:bg-white duration-500 ease-in-out">Read More <i class="uil uil-arrow-right"></i></a>
+            <a href="#" class="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-primary group-hover:text-white hover:after:bg-white duration-500 ease-in-out">Read More <i class="uil uil-arrow-right"></i></a>
             </div>
         </div>
     </div>

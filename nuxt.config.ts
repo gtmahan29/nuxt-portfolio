@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, '/')
   },
-  modules: ['nuxt-icon', 'nuxt-swiper'],
+  modules: ['nuxt-icon', 'nuxt-swiper', '@vueuse/nuxt'],
   swiper: {},
   css: ["~/assets/styles/main.scss"],
   postcss: {

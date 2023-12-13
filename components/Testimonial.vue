@@ -38,171 +38,158 @@
                 <img src="~/assets/img/avatars/2.png" alt="">
             </a>
         </div> -->
-        <Swiper :modules=modules :slides-per-view="3" :loop="true" :effect="'creative'" autoplay class="max-w-screen-xl flex gap-16">
-            <SwiperSlide class="">
-                <div class="text-center">
-                    <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
+        <Swiper :modules="modules" :loop="true" :effect="'cards'" slideShadows="'false'" autoplay @swiper="onSwiper"
+    @slideChange="onSlideChange" class="w-1/2 flex gap-16">
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
                     </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide class="">
-                <div class="text-center">
-                    <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
 
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
                     </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide class="">
-                <div class="text-center">
                     <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
                     </div>
-                </div>
             </SwiperSlide>
-            <SwiperSlide class="">
-                <div class="text-center">
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
+                    </div>
                     <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
                     </div>
-                </div>
             </SwiperSlide>
-            <SwiperSlide class="">
-                <div class="text-center">
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
+                    </div>
                     <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
                     </div>
-                </div>
             </SwiperSlide>
-            <SwiperSlide class="">
-                <div class="text-center">
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
+                    </div>
                     <div class="cursor-e-resize">
-                        <div
-                            class="relative h-[15rem] rounded-xl m-4 p-6 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white before:border-b-white before:border-s-transparent dark:before:shadow-gray-700 before:origin-top-left">
-                            <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
-                            <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
-                                appear more frequently than others."</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                                <li class="inline"><i class="mdi mdi-star"></i></li>
-                            </ul>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
-                            <h6 class="mt-2 font-semibold">Jemina Clone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
-                        </div>
                     </div>
-                </div>
             </SwiperSlide>
-            
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
+                    </div>
+                    <div class="cursor-e-resize">
+                    </div>
+            </SwiperSlide>
+            <SwiperSlide class="bg-white rounded-xl">
+                    <div
+                        class="relative h-[15rem] rounded-xl m-4 p-6">
+                        <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                        <p class="text-slate-400">"One disadvantage of Lorum Ipsum is that in Latin certain letters
+                            appear more frequently than others."</p>
+                        <ul class="list-none mb-0 text-amber-400 mt-3">
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                            <li class="inline"><i class="mdi mdi-star"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <img src="~/assets/img/avatars/2.png" class="h-14 w-14 rounded-full shadow-md mx-auto" alt="">
+                        <h6 class="mt-2 font-semibold">Jemina Clone</h6>
+                        <span class="text-slate-400 text-sm">Manager</span>
+                    </div>
+                    <div class="cursor-e-resize">
+                    </div>
+            </SwiperSlide>
         </Swiper>
     </div>
 </template>
 
 <script setup>
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay];
+const modules = [Navigation, Pagination, Scrollbar, A11y, EffectCards];
 
 </script>
 
