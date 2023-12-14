@@ -1,5 +1,5 @@
 <template>
-    <div class="hero container rounded-b-3xl flex flex-wrap mx-auto px-12 h-full justify-between pt-12 bg-[url('~/assets/img/pattern.png')] bg-no-repeat bg-[length:50rem] bg-[right_bottom_-10rem]">
+    <div class="hero container rounded-b-3xl flex flex-wrap mx-auto px-12 h-full justify-between pt-12 ">
         <div class="hero-content flex flex-col sm:basis-full max-lg:mb-8 lg:basis-1/2 gap-6 justify-center md:items-center lg:items-start z-30">
             <span class="text-primary tracking-widest3x text-xs font-bold">HI, I AM MAHAN</span>
             <div class="hero-title flex flex-col">
